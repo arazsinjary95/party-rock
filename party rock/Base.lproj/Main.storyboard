@@ -70,7 +70,7 @@
                                 <rect key="frame" x="0.0" y="232" width="375" height="435"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="105" id="5FM-cC-dav">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PartyCell" rowHeight="105" id="5FM-cC-dav" customClass="PartyCell" customModule="party_rock" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="105"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5FM-cC-dav" id="zGo-Lj-QfC">
@@ -102,6 +102,10 @@
                                                 <constraint firstItem="qQa-iZ-Bfa" firstAttribute="centerY" secondItem="zGo-Lj-QfC" secondAttribute="centerY" id="xxM-yP-SGb"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="videoPreviewImage" destination="qQa-iZ-Bfa" id="MrB-ZA-vSl"/>
+                                            <outlet property="videoTitle" destination="GFL-nR-ZV4" id="wEM-WW-Xkg"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -122,6 +126,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="tableView" destination="yc6-gr-mHf" id="mad-lr-q6C"/>
                         <segue destination="pnY-ya-M8N" kind="showDetail" identifier="videoVC" id="LJa-VT-Y1E"/>
                     </connections>
                 </viewController>

@@ -14,6 +14,8 @@
 		AEEC835F2108E6F700727E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEEC835D2108E6F700727E99 /* LaunchScreen.storyboard */; };
 		AEEC836A2108ED9C00727E99 /* still time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEEC83692108ED9C00727E99 /* still time.ttf */; };
 		AEEC836D2108EF0000727E99 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC836C2108EF0000727E99 /* VideoVC.swift */; };
+		AEEC836F2108FE1700727E99 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC836E2108FE1700727E99 /* PartyCell.swift */; };
+		AEEC83712108FF2200727E99 /* PartyRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEEC83702108FF2200727E99 /* PartyRock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AEEC83602108E6F700727E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEEC83692108ED9C00727E99 /* still time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "still time.ttf"; sourceTree = "<group>"; };
 		AEEC836C2108EF0000727E99 /* VideoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		AEEC836E2108FE1700727E99 /* PartyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
+		AEEC83702108FF2200727E99 /* PartyRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyRock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 		AEEC83672108E74E00727E99 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				AEEC836E2108FE1700727E99 /* PartyCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -90,6 +95,7 @@
 		AEEC83682108E75500727E99 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				AEEC83702108FF2200727E99 /* PartyRock.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -176,6 +182,8 @@
 			files = (
 				AEEC836D2108EF0000727E99 /* VideoVC.swift in Sources */,
 				AEEC83572108E6F500727E99 /* MainVC.swift in Sources */,
+				AEEC83712108FF2200727E99 /* PartyRock.swift in Sources */,
+				AEEC836F2108FE1700727E99 /* PartyCell.swift in Sources */,
 				AEEC83552108E6F500727E99 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
