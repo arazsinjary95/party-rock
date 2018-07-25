@@ -54,6 +54,9 @@
 		AEEC83532108E6F500727E99 /* party rock */ = {
 			isa = PBXGroup;
 			children = (
+				AEEC83682108E75500727E99 /* Model */,
+				AEEC83672108E74E00727E99 /* View */,
+				AEEC83662108E74200727E99 /* Controller */,
 				AEEC83542108E6F500727E99 /* AppDelegate.swift */,
 				AEEC83562108E6F500727E99 /* ViewController.swift */,
 				AEEC83582108E6F500727E99 /* Main.storyboard */,
@@ -62,6 +65,27 @@
 				AEEC83602108E6F700727E99 /* Info.plist */,
 			);
 			path = "party rock";
+			sourceTree = "<group>";
+		};
+		AEEC83662108E74200727E99 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AEEC83672108E74E00727E99 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AEEC83682108E75500727E99 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
